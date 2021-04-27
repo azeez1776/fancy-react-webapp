@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.body_info {
+  position: absolute;
+  left: 800px;
+  top: 200px;
+  color: black;
+  font-size: 20;
+}
+
+.pp1 {
+  position: relative;
+  left: -245px;
+}
+
+.pp {
+  position: relative;
+  left: -115px;
+  font-size: 32px;
+}
+
+.body_but {
+  position: relative;
+  left: -285px;
+  top: -430px;
+  background-image: linear-gradient(to right, #8d0801, #bf0603);
+  width: 100px;
+  height: 40px;
+  border: 0px;
+  color: white;
+  font-family: monospace;
+  border-radius: 10px;
+  z-index: 100;
+}
+
+.body_but:hover {
+  cursor: pointer;
+  background-image: linear-gradient(to right, #bf0603, #8d0801);
+}
+
+.bodyimg {
+  position: relative;
+  width: 500px;
+  left: -700px;
+  top: -280px;
+  overflow: auto;
+}

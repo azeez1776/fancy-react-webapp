@@ -1,0 +1,51 @@
+.form_block {
+  position: absolute;
+  left: 200px;
+  top: 165px;
+  width: 400px;
+  height: 450px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-image: linear-gradient(to right, #bf0603, #8d0801);
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.form_info {
+  position: relative;
+  top: 100px;
+  left: 600px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  width: 400px;
+  height: 450px;
+}
+
+.form_element {
+  display: flex;
+  margin: 20px;
+}
+
+.form_input {
+  position: relative;
+  left: 10px;
+  margin: 10px;
+}
+
+.form_sub {
+  position: relative;
+  display: block;
+  top: 10px;
+  left: 150px;
+  width: 100px;
+  height: 40px;
+  border: 0px;
+  color: white;
+  background-image: linear-gradient(to right, #8d0801, #bf0603);
+  border-radius: 10px;
+}
+
+.form_sub:hover {
+  background-image: linear-gradient(to left, #8d0801, #bf0603);
+  cursor: pointer;
+}
